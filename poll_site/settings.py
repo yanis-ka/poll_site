@@ -22,7 +22,9 @@ else:
 
 
 
-ALLOWED_HOSTS = ['my-special-polls.herokuapp.com']
+ALLOWED_HOSTS = ['my-special-polls.herokuapp.com',
+                 '127.0.0.1'
+                ]
 
 
 # Application definition
