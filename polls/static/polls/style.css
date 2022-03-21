@@ -1,0 +1,123 @@
+
+.body {
+    /* background-color: rgba(236, 236, 236, 0.8); */
+    background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%);
+    font-size: large;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.home{
+    background: white url("images/background.gif") no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.white{
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.q-list{
+    background-color: rgba(255, 255, 255, 0.867);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 5px rgb(149, 149, 149);
+}
+
+.q-title{
+    /* background-color: rgb(238, 238, 238); */
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn{
+    /* background-color: #0d6efd; */
+    
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 31px;
+    width: 95px;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.field{
+    padding-bottom: 10px;
+}
+
+.q-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+}
+
+.large-btn{
+    width: 180px;
+}
